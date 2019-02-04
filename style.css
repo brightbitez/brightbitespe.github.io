@@ -26,6 +26,7 @@ p.intro{
   width:500px;
   position: relative;
   left:274px;
+  bottom: 210px;
   display: inline-block;
   padding: 20px;
   height: auto;
@@ -39,8 +40,8 @@ p.cal-explanation{
   font-size:19.5px;
   width:500px;
   position: relative;
-  left:850px;
-  bottom: 810px;
+  left:535px;
+  bottom: 550px;
   display: inline-block;
   padding: 20px;
   height: auto;
@@ -48,12 +49,15 @@ p.cal-explanation{
 }
 pre.ex2{
 	display: inline-block;
+	position: relative;
 	padding: 35px;
 	padding-left: 20px;
 	font-size: 30px;
 	background-image: url(htmlbg.png);
 	border:1px solid;
 	border-radius: 25px;
+	top: 355px;
+	right: 555px;
 }
 pre.ex1{
 	display: inline-block;
@@ -62,8 +66,8 @@ pre.ex1{
 	font-size: 30px;
 	background-image: url(cssbg.png);
 	border:1px solid;
-	position: absolute;
-	left: 900px;
+	position: relative;
+	right: 500px;
 	border-radius: 25px;
 }
 h2{
@@ -81,7 +85,7 @@ h3{
 	font-family: 'Marmelad', sans-serif;
 	position: relative;
 	right: 550px;
-	top: 50px;
+	bottom: 50px;
 	display: inline-block;
 	padding: 35px;
 	font-size: 20px;
@@ -92,8 +96,8 @@ h3{
 h4{
 	font-family: 'Marmelad', sans-serif;
 	position: absolute;
-	left:850px;
-	bottom: 415px;
+	left:900px;
+	bottom: 550px;
 	display: inline-block;
 	padding: 35px;
 	font-size: 20px;
@@ -110,19 +114,19 @@ pre.result{
 	border:1px solid;
 	position: absolute;
 	left:900px;
-	top:740px;
+	top:900px;
 	border-radius: 25px;
 }
 p.ex1-explanation{
 	font-family: 'Bai Jamjuree', sans-serif;
-	left: 25px;
+	left:880px;
 	border:1px solid #999999;
   color:white;
   background-color:#434343;
   font-size:19.5px;
   width:500px;
   position: relative;
-
+  bottom: 40px;
   display: inline-block;
   padding: 20px;
   height: auto;
